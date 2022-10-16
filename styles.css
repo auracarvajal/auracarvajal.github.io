@@ -354,6 +354,28 @@ footer{
     height: 250px;
 }
 
+#columns-showcase-portfolio-page{
+    display: flex;
+    align-items: center;
+    margin: 50px;
+    background-color: #e6e6e6;
+}
+
+.column-showcase-portfolio-page{
+    width: 50%;
+    height: 500px;
+    padding: 2%;
+    margin: 1%;
+    background-color: white;
+}
+
+.column-showcase-portfolio-page img{
+    width: 550px;
+    height: 350px;
+    padding-bottom: 50px;
+
+}
+
 #showcase-title h2{
     display: inline-block;
     font-family: calibri;
@@ -455,4 +477,303 @@ label{
     font-family: calibri;
     font-weight: bold;
 
+}
+
+@media(min-width:600px) and (max-width:900px){
+
+    .portada{
+        height: 350px;
+        width: 345px;
+        position: absolute;
+        bottom: 2px;
+        left:72%;
+        padding-top: 15px;
+        transform:translate(-50%);
+    }
+
+    p.style-2{
+        font-family: calibri;
+        font-weight: bold;
+        letter-spacing: 1px;
+        color: #1a1a1a;
+        font-size: 35px;
+    }
+    
+    p.style-3{
+         
+         font-size: 20px;
+         line-height: 30px;
+    }
+
+    .about-container{
+        width: 80%;
+        height: 150px;
+        background-color: #ffffff;
+        border-radius:20px;
+        box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+        margin:-60px auto 0px auto;
+        position:relative;
+       
+         
+    }
+    
+    .about-container h2{
+        font-size: 16px;
+        margin: 20px;
+        text-align: justify;
+        padding-top: 30px;
+    }
+
+    .text-container button{
+        width: 100px;
+        height: 42px;
+        
+    }
+
+    .about-container button{   
+        width: 100px;
+        height: 42px;  
+             
+    }
+
+    .column-showcase{
+        width: 29%;
+        padding: 1%;
+        margin: 2%;
+        background-color: white;
+    }
+    
+    .column-showcase img{
+        width: 180px;
+        height: 120px;
+    }
+
+    #showcase-title h2{
+      
+        font-size:35px;
+    
+    }
+
+    #showcase-button button{
+      
+        width: 140px;
+        height: 42px; 
+        font-size: 13px;
+     
+    }
+
+    #columns-showcase-portfolio-page{
+        display: flex;
+        align-items: center;
+        margin: 20px;
+        background-color: #e6e6e6;
+    }
+    
+    .column-showcase-portfolio-page{
+        width: 50%;
+        height: 350px;
+        padding: 1%;
+        margin: 1%;
+        background-color: white;
+    }
+    
+    .column-showcase-portfolio-page img{
+        width: 340px;
+        height: 220px;
+        padding-bottom: 35px;
+    
+    }
+    
+}
+
+@media (max-width:600px) {
+
+    .portada{
+        height: 300px;
+        width: 290px;
+        position: absolute;
+        bottom: 2px;
+        left:72%;
+        padding-top: 35px;
+        transform:translate(-50%);
+    }
+
+    p.style-2 {
+        font-family: calibri;
+        font-weight: bold;
+        letter-spacing: 1px;
+        color: #1a1a1a;
+        font-size: 25px;
+        margin-bottom: -15px;
+    }
+    
+    
+    p.style-3{
+         
+         font-size: 16px;
+         line-height: 10px;
+        
+    }
+
+    .about-container{
+        width: 85%;
+        height: 150px;
+        background-color: #ffffff;
+        border-radius:20px;
+        box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+        margin:-60px auto 0px auto;
+        position:relative;
+      
+         
+    }
+    
+    .about-container h2{
+        font-size: 16px;
+        margin: 20px;
+        text-align: justify;
+        padding-top: 15px;
+    }
+
+    .text-container button{
+        width: 90px;
+        height: 38px;
+
+        
+    }
+
+    .about-container button{   
+        width: 95px;
+        height: 38px; 
+       
+             
+    }
+
+    .column-showcase-portfolio-page{
+        width: 50%;
+        padding: 2%;
+        margin: 2%;
+        background-color: white;
+    }
+    
+    .column-showcase-portfolio-page img{
+        width: 150px;
+        height: 120px;
+    }
+
+    #showcase-title h2{
+      
+        font-size:35px;
+    
+    }
+
+    #showcase-button button{
+      
+        width: 140px;
+        height: 42px; 
+        font-size: 13px;
+     
+    }
+
+    #services h2{
+        font-size:25px;
+    }
+
+    #columns-services{ 
+        margin: 20px; 
+      
+    }
+
+    #columns-showcase{
+        margin:20px;
+
+    }
+
+    .column-showcase{
+        width: 29%;
+        padding: 1%;
+        margin: 1%;
+        background-color: white;
+    }
+
+    .column-showcase img{
+        width: 150px;
+        height: 140px;
+        padding-left:0px;
+     
+    }
+    
+    
+    .column{
+        width:29%;
+        height: 150px;
+        padding: 2%;
+        margin: 1%;
+        background-color: #000;
+    
+    }
+    
+    .column h2{
+        font-size:18px;
+    }
+    
+    .column p{
+      
+        font-size:14px;
+    }
+
+    #columns-showcase-portfolio-page{
+        display: flex;
+        align-items: center;
+        margin: 20px;
+        background-color: #e6e6e6;
+    }
+    
+    .column-showcase-portfolio-page{
+        width: 50%;
+        height: 350px;
+        padding: 1%;
+        margin: 1%;
+        background-color: white;
+    }
+    
+    .column-showcase-portfolio-page img{
+        width: 240px;
+        height: 220px;
+        padding-bottom: 35px;
+    
+    }
+
+    .contact-left{
+        flex-basis: 40%;
+        padding: 20px;
+        background: white;
+        color:#000;
+    
+    }
+    
+    .contact-right{
+        flex-basis: 80%;
+        padding: 40px 60px;
+        background: #e6e6e6;
+      
+    
+    }
+
+    .container-contact-form{
+        background: #fff;
+        display: flex;
+        font-family: calibri;
+        width: 95%;
+        margin: 30px auto;
+    
+    
+    }
+    
+    
+    
+    
+    
+
+
+    
 }
